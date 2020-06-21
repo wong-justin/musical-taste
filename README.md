@@ -1,7 +1,9 @@
 # musical-taste
+https://wong-justin.glitch.me/musical.html
+
 Looks at a user's Spotify songs and listening history. See change in music taste over time.
 
-https://wong-justin.glitch.me/musical.html
+![Screenshot of music data graph](./demo/screenshot.JPG)
 
 ### Usage
 1. Go to site and authorize your Spotify account to be read
