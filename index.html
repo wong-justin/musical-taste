@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Spotify App</title>
+    <meta name="description" content="See change in your Spotify listening taste over time">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/music2/style.css">
+    
+  </head>
+  <body>
+    
+    <h3>See your history in music</h3>
+      
+    <div>
+      <canvas id="line-chart-canvas"></canvas>
+    </div>
+    
+    <div>
+        <input id="check-all" type="checkbox" checked="false">
+        <label for="check-all">check/uncheck all</label> 
+      <div id="check-list"></div>
+    </div>
+    
+    <div id="summary">
+      <p>Test content</p>
+    </div>      
+      
+    <div>
+        <p>Note: data does not include songs that aren't tracked by Spotify, such as local downloaded files and deleted songs. Repeated songs counted.</p>
+        <p>Songs come from your saved playlists.</p>
+    </div>
+      
+    <p id="output"></p>
+                
+    <div style="position:fixed;top:20px;right:20px;">
+      <a href="/">Home Page</a>
+    </div>
+
+    <footer>
+      &copy; Justin Wong 2020 &nbsp;&nbsp;|&nbsp;&nbsp; <a href="jkwongfl@yahoo.com">Contact</a>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="/music2/script.js"></script>
+
+  </body>
+</html>
